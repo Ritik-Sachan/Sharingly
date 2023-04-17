@@ -12,9 +12,10 @@ body {
 }
 .logo{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 30px;
+    right: 40px;
     width: 150px;
+  
 }
 .upload-container{
     display: flex;
@@ -29,6 +30,7 @@ body {
   background: #fff;
   border-radius: 10px;
   margin-top: 100px;
+  margin-bottom: 40px;
 }
 .center h1 {
   font-size: 2em;
