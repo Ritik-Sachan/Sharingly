@@ -10,7 +10,7 @@ const sendMail = async(req,res)=>{
         host: 'smtp-relay.sendinblue.com',
         port: 587,
         auth: {
-            user: 'sahilchopade233@gmail.com',
+            user: 'ritiksachan1508@gmail.com',
             pass: '7bBZOchYJs4SyfjH'
         }
 
