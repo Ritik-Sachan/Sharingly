@@ -24,9 +24,9 @@ const sendMail = async(req,res)=>{
     //     }
     // });
     let info = await transporter.sendMail({
-        from: `"Sahil Chopade 👻" <${testAccount.user}>`, // sender address
+        from: `"Ritik Sachan 👻" <${testAccount.user}>`, // sender address
         to: `${req.body.receiversMail}`, // list of receivers
-        subject: "Hello Sahil, Here is the download link of ", // Subject line
+        subject: "Hello Ritik, here is the download link of ", // Subject line
         text: "Hello world?", // plain text body
         html: `Here is your link:<br> <a href="${req.body.url}">${req.body.url}</a>`, // html body
       });
