@@ -16,7 +16,7 @@ const sendMail = async (req, res) => {
     subject: "Download Link of a file", // Subject line
     text: "Hello world?", // plain text body
     html: `Hello Mr. User, <br> You have received the download link for the file you were looking for. <br> 
-    Please find the link below,<br> <a href="${link}">${link}</a> <br>Regards <br> Sahil Chopade`, // html body
+    Please find the link below,<br> <a href="${link}">${link}</a> <br>Regards <br> Ritik Sachan`, // html body
   });
   try {
     const result = await transporter.sendMail(info);
