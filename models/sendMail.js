@@ -11,7 +11,7 @@ const sendMail = async (req, res) => {
     },
   });
   let info = await transporter.sendMail({
-    from: `"📩 Sharingly (Ritik Sachan)" <${transporter.options.auth.user}>`, // sender address
+    from: `" 📩 Sharingly (Ritik Sachan) " <${transporter.options.auth.user}>`, // sender address
     to: `${req.body.receiversMail}`, // list of receivers
     subject: "Download Link of a file", // Subject line
     text: "Hello world?", // plain text body
